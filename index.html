@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="shortcut icon" href="./assets/img/Vector.png" type="image/x-icon">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); </style>
+    <title>Codificador e decodificador de texto</title>
+</head>
+<body>
+
+<main class="conteiner">
+
+    <div class="entrada">
+        <div class="inputEntrada">
+            <textarea id="texto"  placeholder="Digite o texto aqui..." class="textEntrada"></textarea>
+        </div>
+        <div class="botoesCD">
+            <button onclick='criptografar()'>Criptografar</button>
+            <button onclick='descriptografar()'>Descriptografar</button>
+        </div>
+    </div>
+
+    <div class="saida">
+        <div class="inputSaida">
+            <textarea id="result" cols="50" rows="30" readonly class="textSaida"></textarea>
+        </div>
+        <div class="botaoCopiar">
+            <button onclick='copiar()'>Copiar</button>
+        </div>
+    </div>
+
+</main>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>

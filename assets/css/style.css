@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+.conteiner{
+    display: flex;
+    padding: 3rem 3rem 0rem 3rem;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.textEntrada{
+    resize: none;
+    border: 10px;
+    background-color: rgb(229, 236, 233);
+    border-radius: 10px;
+    color: #0A3871;
+    letter-spacing: 1px;
+    width: 45vw;
+    height: 65vh;
+    padding: 2rem 2rem 2rem 2rem;
+}
+
+.textSaida{
+    resize: none;
+    border: 10px;
+    background-color: rgb(229, 236, 233);
+    border-radius: 10px;
+    color: #0A3871;
+    letter-spacing: 1px;
+    width: 20vw;
+    height: 65vh;
+    padding: 2rem 2rem 2rem 2rem;
+}
+
+textarea:focus, input:focus, select:focus {
+    outline: 0;
+} 
+
+textarea::placeholder {
+    color: #0A3871;
+}
+
+button{
+    width: 19vw;
+    height: 8vh;
+    border-radius: 13px;
+    background-color: #D8DFE8;
+    color: #0A3871;
+    border: 1px solid #0A3871;
+    margin: 0 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+button:hover{
+    transform: scale(1.01);
+    background-color: #0A3871;
+    color: #D8DFE8;
+    cursor: pointer;
+}
+.botoesCD{
+    display: flex;
+    flex-direction: row;
+}
+
+.entrada, .saida{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 3rem 0 0rem;
+}
+
+@media screen and (max-width :679px){
+    .conteiner{
+        flex-direction: column;
+    }
+    .textEntrada, .textSaida{
+        width: 45vw;
+        height: 65vh;
+    }
+    button{
+        width: 26vw;
+        height: 7vh;
+        margin: 0 0.5rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width :750px){
+    .entrada, .saida{
+        padding: 0;
+        margin: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.imgBuscar{
+    display: none;
+}
